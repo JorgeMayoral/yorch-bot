@@ -1,5 +1,5 @@
 {
-  "name": "YorchBot",
+  "name": "yorch-bot",
   "version": "1.0.0",
   "description": "Chatbot for my Twitch channel.",
   "main": "index.js",
@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   }
 }
